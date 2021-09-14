@@ -1,0 +1,26 @@
+{
+  "name": "docker-fibonacci-worker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "develop": "nodemon"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^16.9.1",
+    "@types/redis": "^2.8.32",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.24.2",
+    "nodemon": "^2.0.12",
+    "prettier": "^2.4.0"
+  },
+  "dependencies": {
+    "redis": "^3.1.2"
+  }
+}
